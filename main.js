@@ -3,7 +3,7 @@
 const userName = document.querySelector( "#user-name" );
 const skillsList = document.querySelector( "#skills" );
 
-userName.textContent = "中村　綾音";
+userName.textContent = "中村綾音";
 
 const skills = [ "Java(基礎レベル)", "英語(海外で８年在住)" ];
 
