@@ -7,7 +7,10 @@ body{
 }
 
 #profile-layout {
-    display: flex;
+display: grid;
+grid-template-columns: 1fr 3fr; /* 1:3で分割 */
+gap: 30px;
+min-height: 100vh; /* 画面いっぱいの高さにする */
 }
 
 main{
@@ -15,7 +18,6 @@ main{
     border: 2px solid #166534;
     padding: 20px;
     margin: 10px;
-    display:block;
 }
 
 #content{
